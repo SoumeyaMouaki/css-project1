@@ -11,11 +11,15 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 1px solid #c7d8e0;
     border-radius: 15px;
     padding: 5px 10px ;
     height: 400px;
-    outline: 15px solid #c7d8e0;
+    transition: transform 0.4s ease,
+    box-shadow 0.4s ease ;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 15px 15px 10px #c7d8e0;
 }
 .card img{
     width: 200px;
@@ -33,4 +37,5 @@
 
 .card p{
     color: gray;
+    font-size: 18px;
 }
