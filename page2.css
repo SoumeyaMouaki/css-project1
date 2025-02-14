@@ -1,11 +1,14 @@
-body{
-    background-color: rgba(115, 115, 255, 0.5) ;
+body {
+    background-color: rgba(115, 115, 255, 0.5);
+    margin: 0; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
 }
-.card-container{
+.card-container {
     width: 320px;
     height: 500px;
-    margin: 20px;
-   
 }
 .card{
     position: relative;
@@ -22,6 +25,8 @@ body{
     transition: transform 0.4s ease;
     cursor: pointer;
     background-color: white;
+    
+   
 }
 .card a {
     position: absolute;  /* to Cover the entire card */
